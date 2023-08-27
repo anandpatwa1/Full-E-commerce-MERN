@@ -1,0 +1,709 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+section {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+section .first{
+  height: 100vh;
+  width: 18%;
+}
+
+
+section .left-div {
+  margin: 15px 0px 0px 15px;
+  position: fixed;
+  height: 200vh;
+  width: 15%;
+  background-color: white;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.left-div h2 {
+  font-size: 18px;
+  line-height: 25px;
+  font-weight: 500;
+}
+
+.one h3 {
+  font-size: 14px;
+  font-weight: 500;
+  margin-left: 40px;
+  margin-right: 65px;
+  border-bottom: 1px solid black;
+}
+
+.two {
+  justify-content: space-between;
+  display: block;
+  padding: 10px 20px 20px 20px;
+}
+
+.frst {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.year-1 {
+  height: 25px;
+  width: 60px;
+  background-color: #c3e09b;
+  border-radius: 5px;
+  border: none;
+}
+
+.year-1 h2 {
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.year-1 :hover {
+  background-color: rgb(95, 244, 95);
+  border-radius: 5px;
+}
+
+.year-2 {
+  height: 25px;
+  width: 60px;
+  background-color: #c3e09b;
+  border-radius: 5px;
+  border: none;
+}
+
+.year-2 h2 {
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.year-2 :hover {
+  background-color: rgb(95, 244, 95);
+  border-radius: 5px;
+}
+
+.scnd {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5px;
+}
+
+.year-3 {
+  height: 25px;
+  width: 60px;
+  background-color: #c3e09b;
+  border-radius: 5px;
+  border: none;
+}
+
+.year-3 h2 {
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.year-3 :hover {
+  background-color: rgb(95, 244, 95);
+  border-radius: 5px;
+}
+
+.year-4 {
+  height: 25px;
+  width: 60px;
+  background-color: #c3e09b;
+  border-radius: 5px;
+  border: none;
+}
+
+.year-4 h2 {
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.year-4 :hover {
+  background-color: rgb(95, 244, 95);
+  border-radius: 5px;
+}
+
+.third {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5px;
+}
+
+.year-5 {
+  height: 25px;
+  width: 60px;
+  background-color: #c3e09b;
+  border-radius: 5px;
+  border: none;
+}
+
+.year-5 h2 {
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.year-5 :hover {
+  background-color: rgb(95, 244, 95);
+  border-radius: 5px;
+}
+
+.year-6 {
+  height: 25px;
+  width: 60px;
+  background-color: #c3e09b;
+  border-radius: 5px;
+  border: none;
+}
+
+.year-6 h2 {
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.year-6 :hover {
+  background-color: rgb(95, 244, 95);
+  border-radius: 5px;
+}
+
+.fourth {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5px;
+}
+
+.year-7 {
+  height: 25px;
+  width: 60px;
+  background-color: #c3e09b;
+  border-radius: 5px;
+  border: none;
+}
+
+.year-7 h2 {
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.year-7 :hover {
+  background-color: rgb(95, 244, 95);
+  border-radius: 5px;
+}
+
+.year-8 {
+  height: 25px;
+  width: 60px;
+  background-color: #c3e09b;
+  border-radius: 5px;
+  border: none;
+}
+
+.year-8 h2 {
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.year-8 :hover {
+  background-color: rgb(95, 244, 95);
+  border-radius: 5px;
+}
+
+.fifth {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5px;
+}
+
+.year-9 {
+  height: 25px;
+  width: 60px;
+  background-color: #c3e09b;
+  border-radius: 5px;
+  border: none;
+}
+
+.year-9 h2 {
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.year-9 :hover {
+  background-color: rgb(95, 244, 95);
+  border-radius: 5px;
+}
+
+.year-10 {
+  height: 25px;
+  width: 60px;
+  background-color: #c3e09b;
+  border-radius: 5px;
+  border: none;
+}
+
+.year-10 h2 {
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.year-10 :hover {
+  background-color: rgb(95, 244, 95);
+  border-radius: 5px;
+}
+
+.sixth {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5px;
+}
+
+.year-11 {
+  height: 25px;
+  width: 60px;
+  background-color: #c3e09b;
+  border-radius: 5px;
+  border: none;
+}
+
+.year-11 h2 {
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.year-11 :hover {
+  background-color: rgb(95, 244, 95);
+  border-radius: 5px;
+}
+
+.year-12 {
+  height: 25px;
+  width: 60px;
+  background-color: #c3e09b;
+  border-radius: 5px;
+  border: none;
+}
+
+.year-12 h2 {
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.year-12 :hover {
+  background-color: rgb(95, 244, 95);
+  border-radius: 5px;
+}
+
+.seventh {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5px;
+}
+
+.year-13 {
+  height: 25px;
+  width: 60px;
+  background-color: #c3e09b;
+  border-radius: 5px;
+  border: none;
+}
+
+.year-13 h2 {
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.year-13 :hover {
+  background-color: rgb(95, 244, 95);
+  border-radius: 5px;
+}
+
+.year-14 {
+  height: 25px;
+  width: 60px;
+  background-color: #c3e09b;
+  border-radius: 5px;
+  border: none;
+}
+
+.year-14 h2 {
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.year-14 :hover {
+  background-color: rgb(95, 244, 95);
+  border-radius: 5px;
+}
+
+.eight {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5px;
+}
+
+.year-15 {
+  height: 25px;
+  width: 60px;
+  background-color: #c3e09b;
+  border-radius: 5px;
+  border: none;
+}
+
+.year-15 h2 {
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.year-15 :hover {
+  background-color: rgb(95, 244, 95);
+  border-radius: 5px;
+}
+
+.three {
+  justify-content: space-between;
+  display: block;
+  padding: 0px 20px 20px 20px;
+}
+
+.three h3 {
+  font-size: 14px;
+  font-weight: 500;
+  margin-left: 10px;
+  margin-right: 15px;
+  border-bottom: 1px solid black;
+}
+
+.one-s {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5px;
+}
+
+.true {
+  height: 25px;
+  width: 60px;
+  background-color: #c3e09b;
+  border-radius: 5px;
+  border: none;
+}
+
+.true h2 {
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.true :hover {
+  background-color: rgb(95, 244, 95);
+  border-radius: 5px;
+}
+
+.false {
+  height: 25px;
+  width: 55px;
+  background-color: #c3e09b;
+  border-radius: 5px;
+  border: none;
+}
+
+.false h2 {
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.false :hover {
+  background-color: rgb(95, 244, 95);
+  border-radius: 5px;
+}
+
+
+.four {
+  justify-content: space-between;
+  display: block;
+  padding: 0px 20px 20px 20px;
+}
+
+.four h3 {
+  font-size: 14px;
+  font-weight: 500;
+  margin-left: 10px;
+  margin-right: 12px;
+  border-bottom: 1px solid black;
+}
+
+.one-L {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5px;
+}
+
+.true-l {
+  height: 25px;
+  width: 60px;
+  background-color: #c3e09b;
+  border-radius: 5px;
+  border: none;
+}
+
+.true-l h2 {
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.true-l :hover {
+  background-color: rgb(95, 244, 95);
+  border-radius: 5px;
+}
+
+.false-l {
+  height: 25px;
+  width: 55px;
+  background-color: #c3e09b;
+  border-radius: 5px;
+  border: none;
+}
+
+.false-l h2 {
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.false-l :hover {
+  background-color: rgb(95, 244, 95);
+  border-radius: 5px;
+}
+
+/* Second Div  */
+
+section .second{
+  min-height: 100vh;
+  width: 82%;
+}
+
+section .right-div {
+  min-height: 300%;
+  width: 100%;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background-color:aliceblue;
+}
+
+.right-frst {
+  height: 320px;
+  width: 900px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.frst-one {
+  margin-top: 15px;
+  height: 330px;
+  width: 21%;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.frst-one img {
+  height: 200px;
+  width: 100%;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.frst-one h2 {
+  font-size: 14px;
+  font-weight: 700;
+  color: rgb(82, 82, 228);
+  margin-left: 10px;
+}
+
+.frst-one h3 {
+  font-size: 12px;
+  font-weight: 700;
+  margin-top: 5px;
+  margin-left: 10px;
+}
+
+.frst-one h4 {
+  font-size: 12px;
+  font-weight: 700;
+  margin-top: 5px;
+  margin-left: 10px;
+}
+
+.frst-one h5 {
+  font-size: 12px;
+  font-weight: 700;
+  margin-top: 5px;
+  margin-left: 10px;
+}
+
+.frst-one h6 {
+  font-size: 12px;
+  font-weight: 700;
+  margin-top: 5px;
+  margin-left: 10px;
+}
+
+@media(max-width:700px) {
+  section {
+      width: 100%;
+      display: block;
+      justify-content: space-between;
+  }
+
+  .left-div {
+      width: 100%;
+  }
+
+  .one h3 {
+      padding-left: 55px;
+      padding-right: 50px;
+  }
+
+  .year-1 {
+      width: 48%;
+  }
+
+  .year-2 {
+      width: 48%;
+  }
+
+  .year-3 {
+      width: 48%;
+  }
+
+  .year-4 {
+      width: 48%;
+  }
+
+  .year-5 {
+      width: 48%;
+  }
+
+  .year-6 {
+      width: 48%;
+  }
+
+  .year-7 {
+      width: 48%;
+  }
+
+  .year-8 {
+      width: 48%;
+  }
+
+  .year-9 {
+      width: 48%;
+  }
+
+  .year-10 {
+      width: 48%;
+  }
+
+  .year-11 {
+      width: 48%;
+  }
+
+  .year-12 {
+      width: 48%;
+  }
+
+  .year-13 {
+      width: 48%;
+  }
+
+  .year-14 {
+      width: 48%;
+  }
+
+  .year-15 {
+      width: 48%;
+  }
+
+  .three h3 {
+      padding-left: 50px;
+      padding-right: 50px;
+      margin-left: 15px;
+      margin-right: 15px;
+  }
+
+  .one-L {
+      width: 100%;
+      justify-content: space-around;
+  }
+
+  .true {
+      width: 48%;
+  }
+
+  .false {
+      width: 48%;
+  }
+
+  .one-L {
+      width: 100%;
+      justify-content: space-between;
+  }
+
+  .four h3 {
+      padding-left: 50px;
+      padding-right: 50px;
+
+  }
+
+  .true-l {
+      width: 48%;
+  }
+
+  .false-l {
+      width: 48%;
+  }
+
+  .right-div {
+      height: 100%;
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+  }
+
+  .right-frst {
+      height: 100%;
+      width: 100%;
+      display: block;
+      justify-content: space-between;
+  }
+
+  .frst-one {
+      height: 350px;
+      width: 100%;
+      margin-top: 8px;
+      padding: 10px;
+  }
+}
